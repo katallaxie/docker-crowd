@@ -1,4 +1,4 @@
-FROM tomcat-jdk:latest
+FROM pixelmilk/tomcat-jdk:latest
 MAINTAINER sebastian@pixelmilk.com
 
 ENV JAVA_OPTS "-Dcrowd.home=/var/run/crowd"
